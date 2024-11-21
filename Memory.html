@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Block</title>
+    <link rel="stylesheet" href="Memory.css">
+</head>
+<body>
+    <div class="divm">
+        <div class="div1">
+            <h1>Memory Block</h1>
+        </div>
+        <div class="div2">
+            <img id="Grapes" src="Grapes.jpg" onclick="selectImage('Grapes')" width="200px"/>
+            <img id="Pinapple" src="Pinapple.jpg" onclick="selectImage('Pinapple')" width="200px"/>
+            <img id="Mango" src="Mango.jpg" onclick="selectImage('Mango')" width="200px"/>
+        </div>
+        <div class="div3">
+            <button onclick="checkMatch('Grapes')">Grapes</button>
+            <button onclick="checkMatch('Pinapple')">Pinapple</button>
+            <button onclick="checkMatch('Mango')">Mango</button>
+        </div>
+        <p id="message"></p>
+    </div>
+    <script src="Memory.js"></script>
+</body>
+</html>
